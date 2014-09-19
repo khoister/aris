@@ -1,0 +1,2 @@
+db.restaurants.find({score : {$exists : true}}).forEach( function(obj) { obj.score = new NumberInt( obj.score ); db.restaurants.save(obj); } );
+db.restaurants.find({facility_id : {$exists : true}}).forEach( function(obj) { obj.facility_id = new NumberInt( obj.facility_id ); db.restaurants.save(obj); } );
