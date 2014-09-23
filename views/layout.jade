@@ -2,12 +2,13 @@ doctype html
 html
   head
     title= title
+    link(rel='stylesheet', href='http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css')
+    link(rel='stylesheet', href='/stylesheets/MarkerCluster.css')
+    link(rel='stylesheet', href='/stylesheets/MarkerCluster.Default.css')
     link(rel='stylesheet', href='/stylesheets/style.css')
     script(src='http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js')
-    script(src='http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js')
-    script(src='http://maps.googleapis.com/maps/api/js?key=AIzaSyA5YT2hlZ2ainVUOszVJZHkAOCVL3uRc0U')
-    script(src='/javascripts/angular-google-maps.min.js')
-    script(src='/javascripts/underscore.js')
+    script(src='http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js')
+    script(src='/javascripts/leaflet.markercluster-src.js')
     script(src='/javascripts/global.js')
   body
     block content
