@@ -7,7 +7,7 @@ Maps restaurants in the Austin, Texas area and allows you to see the inspection 
 
 ### Demo
 
-http://ec2-54-165-211-123.compute-1.amazonaws.com/
+http://ec2-184-72-102-132.compute-1.amazonaws.com/
 
 ### Data source
 
